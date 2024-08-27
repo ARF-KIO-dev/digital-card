@@ -1,0 +1,135 @@
+
+
+/* ===================== */
+
+/* Base Class Overrides  */
+
+/* ===================== */
+
+
+html {
+  background: #23252C
+}
+
+h1, h2, h3, a, p, footer {
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  margin: auto
+}
+
+footer {
+  font-weight: 100;
+}
+
+/* ===================== */
+
+/*  Custom CSS classes.  */
+
+/* ===================== */
+
+.h1-header {
+  text-align: center;
+  margin: 32px;
+  font-weight: 900;
+}
+
+.card {
+
+  margin: auto;
+  background-color: #1A1B21;
+  border-radius: 32px;
+  text-align: center;
+
+  display: block;
+  overflow: auto;
+
+  width: 360px;
+ 
+  height: 100%;
+}
+
+.img-pfp {
+  width : 360px;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+}
+
+/* name + blurb block */
+
+.div-titles {
+  display: block;
+  margin-bottom: 32px;
+}
+
+.div-titles > h1 {
+  font-weight: 900;
+  background-color: black;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  margin-bottom: 8px;
+}
+
+.div-titles > h3 {
+  font-weight: 300;
+  font-family: 'Courier New', Courier, monospace
+}
+
+.div-titles > a {
+  font-weight: 100;
+  font-family: 'Courier New', Courier, monospace;
+  color: orange;
+  font-style: italic;
+}
+
+.div-buttons {
+  display: flex;
+  background-color:#23252C;
+  height : 96px;
+  
+}
+
+/* links with lil' buttons */
+
+.div-buttons > a > button {
+  margin: 2px;
+  width: 96px;
+  height: 32px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  color: white;
+  background-color: orange;
+}
+
+.div-buttons > a > button:hover {
+  border-color: orange;
+  background-color: white;
+  color: black
+}
+
+.div-about-me {
+  margin-top: 8px;
+}
+
+.div-about-me-blocks {
+  margin: 16px;
+}
+
+.div-about-me-blocks > h1 {
+  text-align: left;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+
+.div-about-me-blocks > p, li {
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+  color: white;
+}
+
+.div-footer {
+  min-height: 48px;
+  display: flex;
+}
